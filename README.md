@@ -63,7 +63,7 @@ cd StyleVision-AI
 ```
 python -m venv .venv
 ```
-To enter into the virtual enviornment use any one of the following depedening on your OS.
+To enter the virtual environment, use any one of the following depending on your OS:
 ```
 # On Windows use: 
 .venv\Scripts\activate
