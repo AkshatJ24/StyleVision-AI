@@ -62,9 +62,14 @@ cd StyleVision-AI
 **2. Create a Virtual Environment (Recommended)**
 ```
 python -m venv .venv
+```
+To enter into the virtual enviornment use any one of the following depedening on your OS.
+```
 # On Windows use: 
 .venv\Scripts\activate
-# On macOS/Linux use: 
+```
+```
+# Or On macOS/Linux use: 
 source .venv/bin/activate
 ```
 
