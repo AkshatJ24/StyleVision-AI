@@ -1,12 +1,6 @@
-# Core app dependencies
-Flask
-numpy
-opencv-python
-tensorflow
-ultralytics
-
-# Data exploration and model-preparation notebook dependencies
-pandas
-matplotlib
-scikit-learn
-seaborn
+flask==3.0.0
+gunicorn==21.2.0
+tensorflow-cpu==2.15.0
+ultralytics==8.1.0
+opencv-python-headless==4.9.0.80
+numpy==1.26.4
