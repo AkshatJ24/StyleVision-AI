@@ -1,0 +1,12 @@
+# Core app dependencies
+Flask
+numpy
+opencv-python
+tensorflow
+ultralytics
+
+# Data exploration and model-preparation notebook dependencies
+pandas
+matplotlib
+scikit-learn
+seaborn

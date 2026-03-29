@@ -4,3 +4,4 @@ static/uploads/*
 .venv/
 .env
 .DS_Store
+StyleVision AI Dataset/
