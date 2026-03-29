@@ -55,19 +55,26 @@ Want to run this pipeline on your own machine? Follow these steps:
 ```bash
 git clone https://github.com/AkshatJ24/StyleVision-AI.git
 cd StyleVision-AI
+```
 
 **2. Create a Virtual Environment (Recommended)**
+```
 python -m venv .venv
 # On Windows use: 
 .venv\Scripts\activate
 # On macOS/Linux use: 
 source .venv/bin/activate
+```
 
 **3. Install Dependencies**
+```
 pip install -r requirements.txt
+```
 
 **4. Run the Application**
+```
 python app.py
+```
 
 ## 📚 Syllabus Relevance
 This project directly applies concepts from **Module 3: Feature Extraction and Image Segmentation**. By utilizing YOLOv8 for dynamic region-of-interest cropping (advanced segmentation) and MobileNetV2 for deep feature extraction, the pipeline demonstrates a modern, practical application of core computer vision principles.
