@@ -64,12 +64,13 @@ cd StyleVision-AI
 python -m venv .venv
 ```
 To enter the virtual environment, use any one of the following depending on your OS:
-```
-# On Windows use: 
+
+On Windows use:
+``` 
 .venv\Scripts\activate
 ```
-```
-# Or On macOS/Linux use: 
+Or On macOS/Linux use:
+``` 
 source .venv/bin/activate
 ```
 
@@ -83,5 +84,7 @@ pip install -r requirements.txt
 python app.py
 ```
 > ⏱️ **Note on First Boot:** When you run `python app.py`, the Flask server may take **15-20 seconds** to start. This is a standard "cold start" delay while the heavy YOLOv8 and MobileNetV2 model weights are loaded into your system's memory. Once loaded, all subsequent image predictions will run in milliseconds.
+
+> **🌐 Access the website here after running `python app.py` on your local enviornment:**  http://127.0.0.1:5000 
 ## 📚 Syllabus Relevance
 This project directly applies concepts from **Module 3: Feature Extraction and Image Segmentation**. By utilizing YOLOv8 for dynamic region-of-interest cropping (advanced segmentation) and MobileNetV2 for deep feature extraction, the pipeline demonstrates a modern, practical application of core computer vision principles.
