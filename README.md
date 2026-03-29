@@ -54,6 +54,8 @@ Want to run this pipeline on your own machine? Follow these steps:
 **1. Clone the Repository**
 ```bash
 git clone https://github.com/AkshatJ24/StyleVision-AI.git
+```
+```
 cd StyleVision-AI
 ```
 
